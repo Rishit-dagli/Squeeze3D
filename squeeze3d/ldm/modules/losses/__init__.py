@@ -1,0 +1,1 @@
+from squeeze3d.ldm.modules.losses.contperceptual import LPIPSWithDiscriminator

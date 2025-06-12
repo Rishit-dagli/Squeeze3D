@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "point-cloud-ssim"
+version = "0.1.0"
+description = "Structural similarity loss for point clouds."
+authors = ["Tiago Oliveira"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+open3d = "0.12.0"
+numpy = "1.18.5"
+scikit-learn = "0.24.2"
+black = "^21.12b0"
+flake8 = "^4.0.1"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+line-length = 79
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
