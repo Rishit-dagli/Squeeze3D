@@ -369,14 +369,13 @@ This codebase is built on top of, and thanks to the following repositories:
 If you find Squeeze3D helpful, please consider citing:
 
 ```bibtex
-@misc{squeeze3d,
-      title={Squeeze3D: Your 3D Generation Model is Secretly an Extreme Neural Compressor}, 
-      author={Rishit Dagli and Yushi Guan and Sankeerth Durvasula and Mohammadreza Mofayezi and Nandita Vijaykumar},
-      year={2025},
-      eprint={2506.07932},
-      archivePrefix={arXiv},
-      primaryClass={cs.GR},
-      url={https://arxiv.org/abs/2506.07932}, 
+@article{dagli2026squeeze3d,
+title={Squeeze3D: Extreme Neural Compression with Latent Space Bridging},
+author={Rishit Dagli and Yushi Guan and Sankeerth Durvasula and Mohammadreza Mofayezi and Nandita Vijaykumar},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=XXYGHfqzvA}
 }
 ```
 
