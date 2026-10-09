@@ -1,5 +1,5 @@
 <div align="center">
-<h2>Squeeze3D: Your 3D Generation Model is Secretly an Extreme Neural Compressor</h2>
+<h2>Squeeze3D: Extreme Neural Compression with Latent Space Bridging</h2>
 
 <a href="https://arxiv.org/abs/2506.07932"><img src='https://img.shields.io/badge/arXiv-Squeeze3D-red' alt='Paper PDF'></a>
 <a href='https://squeeze3d.github.io'><img src='https://img.shields.io/badge/Project_Page-Squeeze3D-green' alt='Project Page'></a>
@@ -9,7 +9,7 @@
 
 ![](./assets/teaser.png)
 
-This repository provides the implementation of **Squeeze3D**, an approach that leverages implicit prior knowledge learnt by existing pre-trained 3D generative models to compress 3D data at extremely high compression ratios. Squeeze3D bridges the latent spaces between a pre-trained encoder and a pre-trained generation model through trainable mapping networks.
+This repository provides the implementation of **Squeeze3D**. We bridge the latent spaces of different models. We do so without any reconstruction-based losses, only latent space loss + dimension-wise contrastive loss. As an application, we apply it to 3D and show we can use it for extreme compression.
 
 ---
 
